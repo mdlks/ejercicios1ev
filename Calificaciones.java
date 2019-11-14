@@ -27,7 +27,7 @@ public class Calificaciones {
 		t1 = Double.parseDouble(br.readLine());
 		System.out.println("que sacaste en la tarea 2 de fisica? :");
 		t2 = Double.parseDouble(br.readLine());
-		double nota_media_fisica= (0.9*nota_examen)+(((t1+t2)/2)*0.1);
+		double nota_media_fisica= (0.8*nota_examen)+(((t1+t2)/2)*0.2);
 		System.out.println("tu media en fisica es : "+nota_media_fisica);
 		
 		System.out.println("que sacaste en el examen de quimica? :");
@@ -38,7 +38,7 @@ public class Calificaciones {
 		t2 = Double.parseDouble(br.readLine());
 		System.out.println("que sacaste en la tarea 3 de quimica? :");
 		t3 = Double.parseDouble(br.readLine());
-		double nota_media_quimica= (0.9*nota_examen)+(((t1+t2+t3)/3)*0.1);
+		double nota_media_quimica= (0.85*nota_examen)+(((t1+t2+t3)/3)*0.15);
 		System.out.println("tu media en quimica es : "+nota_media_quimica);
 		
 		double media_total= (nota_media_matem+nota_media_fisica+nota_media_quimica)/3;
