@@ -50,11 +50,12 @@ public class Calculadora {
 		else {
 			System.out.println("ADIOS");
 			menu=0;
+			sc.close();
 		}
 		
 		}
 		}
-		}
+	}
 		
 
 
