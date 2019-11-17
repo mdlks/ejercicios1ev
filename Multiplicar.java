@@ -56,7 +56,7 @@ public class Multiplicar {
 			}
 		
 	
-		
+		sc.close();
 
 		}
 
